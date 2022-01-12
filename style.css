@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(58, 52, 52);
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  width: 550px;
+}
+
+.line {
+  margin-top: 50px;
+  display: inline-block;
+  align-items: center;
+  width: 400px;
+  border-bottom: 5px dashed rgb(233, 111, 111);
+}
+
+.line::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 5px solid rgb(233, 111, 111);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.foto {
+  margin-top: 50px;
+  margin-left: 90px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid rgb(233, 111, 111);
+}
+
+.profile {
+  margin-left: 100px;
+  padding: 50px;
+  background-color: rgb(233, 111, 111);
+  border-bottom-left-radius: 8%;
+}
+
+.profile__title {
+  background-color: rgb(233, 111, 111);
+}
+
+/* .profile__title::before {
+  content: "";
+  background: url(./icons/people.png);
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: center;
+  color:rgb(58, 52, 52);
+} */
+
+.profile__main {
+  margin-top: 40px;
+  background-color: rgb(233, 111, 111);
+}
+
+.profile__contacts {
+  margin-top: 20px;
+  width: 30em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(233, 111, 111);
+}
+
+.profile__contacts__item {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 111, 111);
+}
+
+.profile__contacts__item a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.profile__contacts__item_text {
+  background-color: rgb(233, 111, 111);
+}
+
+.icon {
+  background-color: rgb(233, 111, 111);
+}
+
+.icon-item {
+  background-color: rgb(233, 111, 111);
+}
