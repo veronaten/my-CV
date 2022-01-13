@@ -26,14 +26,14 @@ header {
   border-bottom: 5px dashed rgb(233, 111, 111);
 }
 
-.line::after {
+/* .line::after {
   content: "";
   width: 8px;
   height: 8px;
   border: 5px solid rgb(233, 111, 111);
   border-radius: 50%;
   display: inline-block;
-}
+} */
 
 .foto {
   margin-top: 50px;
@@ -56,18 +56,6 @@ header {
   background-color: rgb(233, 111, 111);
   text-transform: uppercase;
 }
-
-/* .profile__title::before {
-  content: "";
-  background: url(./icons/people.png);
-  display: inline-block;
-  width: 29px;
-  height: 29px;
-  margin-right: 10px;
-  margin-top: 5px;
-  text-align: center;
-  color:rgb(58, 52, 52);
-} */
 
 .profile__main {
   margin-top: 40px;
@@ -125,10 +113,6 @@ main {
   justify-content: space-around;
   align-items: flex-start;
 }
-
-/* .introduce {
-  border-right: 3px solid rgb(189, 167, 167);
-} */
 
 .name {
   text-transform: uppercase;
@@ -202,4 +186,27 @@ main {
   margin-top: 15px;
   color: rgb(241, 226, 227);
   text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-rectangle {
+  margin-top: 100px;
+  /* padding: 33px; */
+  background-color: rgb(233, 111, 111);
+  border-top-right-radius: 18%;
+  width: 350px;
+  height: 40px;
+}
+
+.footer-line {
+  margin-top: 100px;
+  display: inline-block;
+  align-items: center;
+  width: 800px;
+  border-bottom: 5px dashed rgb(233, 111, 111);
 }
