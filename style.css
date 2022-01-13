@@ -54,6 +54,7 @@ header {
 
 .profile__title {
   background-color: rgb(233, 111, 111);
+  text-transform: uppercase;
 }
 
 /* .profile__title::before {
