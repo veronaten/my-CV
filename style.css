@@ -19,7 +19,7 @@ header {
 }
 
 .about {
-  width: 550px;
+  width: 40%;
 }
 
 .line {
@@ -75,7 +75,6 @@ header {
 .profile__main {
   margin-top: 40px;
   font-size: 18px;
-  font-weight: 300;
   background-color: rgb(233, 111, 111);
   color: rgb(58, 52, 52);
   max-width: 60ch;
@@ -83,17 +82,17 @@ header {
 
 .profile__contacts {
   margin-top: 20px;
-  width: 30em;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 50px 50px;
+  grid-gap: 30px;
+  row-gap: 20px;
   background-color: rgb(233, 111, 111);
 }
 
 .profile__contacts__item {
-  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgb(233, 111, 111);
 }
@@ -102,24 +101,25 @@ header {
   text-decoration: none;
   color: rgb(58, 52, 52);
   display: block;
-  margin-top: 0px;
-  margin-left: 10px;
+  /* margin-top: 0px;
+  margin-left: 10px; */
   font-size: 18px;
-  font-weight: 300;
 }
 
 .profile__contacts__item_text {
   background-color: rgb(233, 111, 111);
   color: rgb(58, 52, 52);
   font-size: 18px;
-  font-weight: 300;
 }
 
 .icon {
-  background-color: rgb(233, 111, 111);
+  width: 35px;
+  padding: 5px;
+  background-color: rgb(58, 52, 52);
 }
 
 .icon-item {
+  width: 15%;
   background-color: rgb(233, 111, 111);
 }
 
