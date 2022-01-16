@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(58, 52, 52);
   margin: 0px;
   padding: 0px;
 }
@@ -11,6 +10,7 @@ html {
 
 body {
   display: block;
+  background-color: rgb(58, 52, 52);
 }
 
 header {
@@ -59,7 +59,7 @@ header {
 
 .profile {
   padding: 50px;
-  width: 70%;
+  width: 60%;
   background-color: rgb(233, 111, 111);
   border-bottom-left-radius: 30px;
 }
@@ -78,6 +78,7 @@ header {
   background-color: rgb(233, 111, 111);
   color: rgb(58, 52, 52);
   max-width: 60ch;
+  line-height: 1.4;
 }
 
 .profile__contacts {
@@ -92,6 +93,7 @@ header {
 
 .profile__contacts__item {
   display: flex;
+  gap: 15px;
   justify-content: flex-start;
   align-items: center;
   background-color: rgb(233, 111, 111);
@@ -196,7 +198,7 @@ main {
 .description ul {
   margin-top: 15px;
   margin-left: 20px;
-  line-height: 22px;
+  line-height: 29px;
   color: rgb(241, 226, 227);
 }
 
