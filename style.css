@@ -113,9 +113,8 @@ header {
 }
 
 .icon {
-  /* display: block;
-  margin: 0 auto; */
   width: 100%;
+  height: 100%;
   background-color: rgb(58, 52, 52);
 }
 
