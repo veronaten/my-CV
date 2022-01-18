@@ -92,7 +92,7 @@ header {
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(2, 50px);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 30px;
   row-gap: 20px;
   background-color: rgb(233, 111, 111);
@@ -111,11 +111,13 @@ header {
   color: rgb(58, 52, 52);
   display: block;
   font-size: 18px;
+  transition: 0.3s;
+  border-bottom: solid 1px;
 }
 
 .profile__contacts__item a:hover {
   color:rgb(241, 226, 227);
-  transition: 1s;
+  border-bottom: none;
 }
 
 .profile__contacts__item a:active {
@@ -123,17 +125,14 @@ header {
   transition: 0.3s;
 }
 
+/* .icon-item-link {
+  transition: 0.3s;
+}
+
 .icon-item-link:hover {
   color:rgb(241, 226, 227);
   transform: scale(1s);
-  transition: 1s;
-}
-
-.profile__contacts__item_text {
-  background-color: rgb(233, 111, 111);
-  color: rgb(58, 52, 52);
-  font-size: 18px;
-}
+} */
 
 .icon {
   width: 100%;
@@ -249,10 +248,22 @@ li {
   align-items: start;
 }
 
-.description-link li a{
+.description-link li a {
   margin-top: 15px;
   color: rgb(241, 226, 227);
   text-decoration: none;
+  transition: 0.3s;
+  border-bottom: solid 1px;
+}
+
+.description-link li a:hover {
+  color: rgb(233, 111, 111);
+  border-bottom: none;
+}
+
+.description-link li a:active {
+  color: rgb(83, 75, 190);
+  transition: 0.3s;
 }
 
 footer {
