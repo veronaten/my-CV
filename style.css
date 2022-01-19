@@ -209,7 +209,7 @@ main {
 }
 
 .description__title-item {
-  margin-left: 26px;
+  margin-left: 12px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
@@ -249,11 +249,11 @@ li {
 }
 
 .description-link li a {
-  margin-top: 15px;
   color: rgb(241, 226, 227);
   text-decoration: none;
   transition: 0.3s;
   border-bottom: solid 1px;
+  line-height: 40px;
 }
 
 .description-link li a:hover {
