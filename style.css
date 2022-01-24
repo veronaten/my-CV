@@ -9,11 +9,14 @@ html {
 }
 
 body {
+  height: 100%;
   display: block;
   background-color: rgb(112, 102, 102);
 }
 
 .wrapper {
+  position: relative;
+	min-height: 100vh;
   display: block;
   margin: 0 auto;
   max-width: 1350px;
@@ -142,6 +145,7 @@ h1 {
 }
 
 main {
+  padding-bottom: 200px;
   margin-top: 70px;
   margin-left: 90px;
   margin-right: 90px;
@@ -257,6 +261,9 @@ li {
 }
 
 footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
